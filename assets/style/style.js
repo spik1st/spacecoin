@@ -22,13 +22,8 @@ window.addEventListener('scroll', function () {
 
 //Navbar Transparent Scroll 
 
-const nav = document.querySelector('nav');
-
-window.addEventListener('scroll', () => {
-
-    if (window.scrollY >= 720) {
-        nav.classList.add('active-nav');
-    } else {
-        nav.classList.remove('active-nav');
-    } 
+window.addEventListener('scroll', function () {
+    const nav = this.document.querySelector('nav');
+    nav.classList.toggle('active-nav', window.scrollY >= 700);
 })
+
