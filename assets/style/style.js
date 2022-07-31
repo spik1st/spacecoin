@@ -25,9 +25,10 @@ window.addEventListener('scroll', function () {
 const nav = document.querySelector('nav');
 
 window.addEventListener('scroll', () => {
-    if (window.scrollY >= 50) {
+
+    if (window.scrollY >= 720) {
         nav.classList.add('active-nav');
     } else {
         nav.classList.remove('active-nav');
-    }
+    } 
 })

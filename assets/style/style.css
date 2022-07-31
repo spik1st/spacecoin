@@ -505,7 +505,7 @@ footer p {
     font-size: .75em;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
     .navbar .logo {
         float: none;
         width: auto;
@@ -619,7 +619,7 @@ footer p {
         color: #fff;
         position: relative;
         border-radius: 20px;
-        margin-top: -100px;
+        /* margin-top: -100px; */
     }
 
     .profile-box p {
